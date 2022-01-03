@@ -10,6 +10,7 @@ h1{
 }
 section{
     display:flex;
+    margin-bottom: 100px;
 }
 .half-width{
     padding: 5%;
@@ -20,7 +21,7 @@ section{
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange tomato);
+    background-image: linear-gradient(orange , tomato);
     border-radius: 10px;
     padding: 10px 40px;
     color: white;
@@ -29,4 +30,13 @@ section{
 .top-bottom{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.nd-halfwidth image{
+    width: 100%;
+    
+}
+.nd-line{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
